@@ -1,0 +1,232 @@
+{
+    "asset": {
+        "copyright": "(C)2021 chris",
+        "generator": "maya2glTF v1.1.0 c13125a0af77",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "woodenbox:Box",
+            "mesh": 0
+        }
+    ],
+    "meshes": [
+        {
+            "name": "woodenbox:BoxShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.4047619104385376
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 1
+            },
+            "occlusionTexture": {
+                "index": 2
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "images": [
+        {
+            "uri": "box_Box_BaseColor.png"
+        },
+        {
+            "uri": "box_Box_Normal.png"
+        },
+        {
+            "uri": "box_Box_OcclusionRoughnessMetallic.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "woodenbox:BoxShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2076,
+            "max": [
+                1048
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "woodenbox:BoxShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1049,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "woodenbox:BoxShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 12588,
+            "componentType": 5126,
+            "count": 1049,
+            "max": [
+                3.876522064208985,
+                6.762660980224609,
+                3.876522064208985
+            ],
+            "min": [
+                -3.876522064208985,
+                -0.9903870224952698,
+                -3.876522064208985
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "woodenbox:BoxShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1049,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "woodenbox:BoxShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1049,
+            "max": [
+                0.9665049910545348,
+                0.949599027633667
+            ],
+            "min": [
+                0.034807998687028888,
+                0.01571398973464966
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "MylittleBox/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 50352,
+            "byteLength": 4152,
+            "target": 34963
+        },
+        {
+            "name": "MylittleBox/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 16784,
+            "byteLength": 25176,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "MylittleBox/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 16784,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "MylittleBox/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 41960,
+            "byteLength": 8392,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "MylittleBox/data",
+            "byteLength": 54504,
+            "uri": "MylittleBox0.bin"
+        }
+    ]
+}
