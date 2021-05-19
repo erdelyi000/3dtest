@@ -1,0 +1,200 @@
+{
+    "asset": {
+        "copyright": "(C)2021 chris",
+        "generator": "maya2glTF v1.4.0 3d7ba8eaf03e",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "Dice",
+            "mesh": 0,
+            "translation": [
+                0.0,
+                2.789647102355957,
+                0.0
+            ],
+            "scale": [
+                4.391490936279297,
+                4.391490936279297,
+                4.391490936279297
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "DiceShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader3",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.7681159377098084,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.1785714328289032
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "name": "DiceShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 60,
+            "max": [
+                59
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "DiceShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60,
+            "max": [
+                0.9822469353675842,
+                0.9341723322868348,
+                0.7946545481681824
+            ],
+            "min": [
+                -0.9822469353675842,
+                -0.9341724514961244,
+                -0.7946545481681824
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "DiceShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 720,
+            "componentType": 5126,
+            "count": 60,
+            "max": [
+                0.8944272994995117,
+                0.8506509065628052,
+                1.0
+            ],
+            "min": [
+                -0.8944272994995117,
+                -0.8506507873535156,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "DiceShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60,
+            "max": [
+                0.95858895778656,
+                0.06888217478990555,
+                0.9822468757629396,
+                1.0
+            ],
+            "min": [
+                -0.9585888981819152,
+                -0.06888215988874436,
+                -0.9822468757629396,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "DiceShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60,
+            "max": [
+                1.176208257675171,
+                0.8237917423248291
+            ],
+            "min": [
+                0.08810411393642426,
+                0.17620813846588136
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "Dice/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 2880,
+            "byteLength": 120,
+            "target": 34963
+        },
+        {
+            "name": "Dice/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 960,
+            "byteLength": 1440,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "Dice/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 960,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "Dice/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 2400,
+            "byteLength": 480,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "Dice/data",
+            "byteLength": 3000,
+            "uri": "Dice0.bin"
+        }
+    ]
+}
