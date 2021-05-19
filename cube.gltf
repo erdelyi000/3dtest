@@ -1,0 +1,206 @@
+{
+    "asset": {
+        "copyright": "(C)2021 chris",
+        "generator": "maya2glTF v1.4.0 3d7ba8eaf03e",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pCube1",
+            "children": [
+                1
+            ],
+            "translation": [
+                0.0,
+                3.0149357318878176,
+                0.3134737014770508
+            ]
+        },
+        {
+            "name": "pCube1:PIV",
+            "mesh": 0,
+            "translation": [
+                0.0,
+                -3.0149357318878176,
+                -0.3134737014770508
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pCubeShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8623188138008118,
+                    0.0,
+                    0.0994974672794342,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.0892857164144516
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pCubeShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 288,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                3.452861070632935,
+                6.467796802520752,
+                3.766334772109986
+            ],
+            "min": [
+                -3.452861070632935,
+                -0.4379253387451172,
+                -3.139387369155884
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCubeShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "cube/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 1152,
+            "byteLength": 72,
+            "target": 34963
+        },
+        {
+            "name": "cube/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 384,
+            "byteLength": 576,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "cube/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 384,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "cube/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 960,
+            "byteLength": 192,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "cube/data",
+            "byteLength": 1224,
+            "uri": "cube0.bin"
+        }
+    ]
+}
